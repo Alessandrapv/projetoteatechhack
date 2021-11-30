@@ -1,0 +1,226 @@
+.mb-3{
+    margin: 20px;
+}
+article{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding: 10px;
+}
+.noticias{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.card{
+    margin:25px;
+
+}
+.card a{
+    background:rgb(6, 211, 247);
+    color: black;
+    border: 1px solid rgb(6, 211, 247) ;
+}
+.autismo{
+   font-family: 'roboto';
+   padding: 10px;
+   margin: 120px;
+   text-align: center;
+}
+.autismo h2{
+    font-size: 30px;
+    
+}
+.autismo p{
+    font-family:'roboto';
+    font-size: 20px;
+
+}
+
+.noticias{
+    margin: 100px;
+    
+}
+
+h5{
+    font-size: 40px;
+}
+.carousel-caption p{
+    font-size: 30px;
+}
+.card-title {
+    font-size: 20px;
+}
+.nav-link{
+    font-family: 'roboto';
+    font-weight: 700;
+}
+.fig{
+    width: 700px;
+}
+.fundo-vermelho {
+    background-color: rgb(89, 165, 236);
+}
+.fundo-azul {
+    background-color: rgb(240, 105, 105);
+}
+.fundo-laranja {
+    background-color: rgb(111, 219, 111);
+}
+.fundo-azulgelo {
+    background-color: rgb(245, 245, 0);
+}
+.botao {
+    background-color: rgba(0, 0, 0, 0.301);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+
+}
+
+.grids-body{
+    padding: 25px;
+}
+.grids-rodape{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+.itens-canto{
+    justify-content: flex-end;
+}
+.lego{
+    font-family: 'roboto';
+    font-weight: 700;
+}
+.tea{
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 0.6em;
+    color: #e74c3c;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+  .tea:hover, .tea:focus {
+    color: #fff;
+    outline: 0;
+  }
+  .third  {
+    border-color: #3498db;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+  }
+  .third:hover {
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+  }
+  .btn-center{
+      display: flex;
+      justify-content:space-evenly;
+  }
+  .autismo-part{
+      background-color:rgb(111, 219, 111) ;
+  }
+  .autismo-proj{
+      background-color:rgb(89, 165, 236) ;
+  }
+  .autismo-aut{
+    background-color: rgb(240, 105, 105);
+  }
+  .autismo-art{
+    background-color:rgb(245, 245, 0);
+  }
+  .rodape{
+    background-color: #e3f2fd;
+    color: #036ee7;
+}
+
+.rodape ul{
+    list-style-type: none;
+}
+.caixasuperior img{
+    width: 20px;
+    align-items: baseline;
+}
+
+.barrasuperior{
+   padding: 10px;
+   margin-left: 125px;
+   justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.125rem;
+}
+.barratripla{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.125rem;
+}
+.barrainferior{
+    padding: 5px;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.125rem;
+}
+
+.caixainferior textarea{
+    resize: none ;
+    background-color: #e3f2fd;
+    color: #036ee7;
+}
+.caixadireita{
+    display:block;
+}
+.caixadireita img{
+    width: 35px;
+    margin-left: 20px;
+}
+.nav-item{
+    font-family: 'roboto';
+    font-size: 20px;
+}
+.paciente{
+    font-family: 'roboto';
+    padding: 10px;
+    margin: 120px;
+    text-align: center;
+ }
+.dropdown-menu{
+    background-color:rgb(89, 165, 236) ;
+    
+}
+.dropdown-item{
+    font-family: 'roboto';
+    font-size: 20px;
+    color: white;
+}
